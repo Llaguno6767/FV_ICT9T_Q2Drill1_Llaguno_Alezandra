@@ -1,37 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q2 Drill 1</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q2 Drill 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0d6efd;
+      color: #000000;
+      font-family: Arial, sans-serif;
+      padding: 30px 0;
+    }
+
+    .outer-container {
+      background-color: #0056b3;
+      border: 2px solid #ffffff;
+      border-radius: 15px;
+      padding: 40px 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .title-box {
+      background-color: #ffffff;
+      border-radius: 30px;
+      padding: 12px 25px;
+      display: inline-block;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .title-box h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000000;
+      margin: 0;
+    }
+
+    .card-box {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      height: 100%;
+    }
+
+    .card-header-yellow {
+      background-color: #ffc107;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #000000;
+      margin-bottom: 15px;
+    }
+
+    .card-box ul {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+
+    .card-box li {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    img.center-illustration {
+  mix-blend-mode: multiply; 
+}    
+  </style>
 </head>
 <body>
-    <div class="container"> 
 
-        <div> class="container">
-            <h1>Title</h1>
-                        
-        </div>
-        <br>
-
-        <img src="" alt="">
-        <br>
-
-        <div>class="row"
-            <div> class="col"
-                First div
-            </div>
-
-            <div> class="col"
-                Second div
-            </div>
-
-            <div> class="col"
-                Third div
-            </div>
-
-        </div>
+  <div class="container outer-container text-center">
+    
+    <div class="title-box mb-5">
+      <h1>Beginner's Guide to Badminton</h1>
     </div>
+        <br>
+       <img src=" c:\Users\rclla\Documents\badminton.jfif" class="center-illustration" style="mix-blend-mode: multiply;" alt="Badminton Racket">
+        <br>
+
+    <div class="row g-4 text-start">
+      
+      <div class="col-md-4">
+        <div class="card-box">
+          <div class="card-header-yellow">
+          Basic Rules
+          </div>
+          <ul>
+            <li>Each game is played to 21 points</li>
+            <li>The serve must be travelled diagonally</li>
+            <li>The serve must hit underhand, below the waist</li>
+            <li> You cannot touch the net while the shuttlecock is in play. </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-box">
+          <div class="card-header-yellow">
+            Badminton Equipment
+          </div>
+          <ul>
+            <li>Racket</li>
+            <li>Shuttlecock</li>
+            <li>Shoes</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-box">
+          <div class="card-header-yellow">
+            Basic Techniques
+          </div>
+          <ul>
+            <li>Forehand grip</li>
+            <li>Backhand grip</li>
+            <li>Ready stance</li>
+            <li>Low and high serve</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
